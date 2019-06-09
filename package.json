@@ -1,5 +1,5 @@
 {
-  "name": "nyancss-types",
+  "name": "@nyancss/types",
   "version": "1.0.0",
   "description": "Nyan CSS types",
   "main": "lib/index.js",
