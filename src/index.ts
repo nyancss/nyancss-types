@@ -15,7 +15,7 @@ export type NyanCSSProp = NyanCSSBooleanProp | NyanCSSEnumProp
 
 export type NyanCSSComponent = {
   tag: string | undefined
-  className: string
+  className: string | undefined
   props: {
     [propName: string]: NyanCSSProp
   }
