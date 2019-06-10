@@ -14,6 +14,7 @@ export type NyanCSSEnumProp = {
 export type NyanCSSProp = NyanCSSBooleanProp | NyanCSSEnumProp
 
 export type NyanCSSComponent = {
+  componentName: string
   tag: string | undefined
   className: string | undefined
   props: {
